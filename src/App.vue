@@ -64,11 +64,11 @@ const timetable = {
   Wednesday: [
     { time: "08:00", subject: "VC" },
     { time: "09:00", subject: "DGV" },
-    { time: "10:00", subject: "FREE TIME" },
+    { time: "10:00", subject: "FREE " },
     { time: "11:00", subject: "MATH" }
   ],
   Thursday: [
-    { time: "08:00", subject: "WUM" },
+    { time: "08:00", subject: "VC" },
     { time: "09:00", subject: "DJF" },
     { time: "10:00", subject: "PHY" },
     { time: "11:00", subject: "DJF" }
@@ -80,7 +80,7 @@ const timetable = {
 }
 
 const activities = {
-  Monday: ["Cleaning", "Assembly", "Homework"],
+  Monday: ["general assembly", "Assembly", "Homework"],
   Tuesday: ["Group Work", "Reading", "Assignments"],
   Wednesday: ["Sports Practice", "Discussion", "Revision"],
   Thursday: ["Project Work", "Presentation", "Homework"],
