@@ -2,7 +2,7 @@
   <div>
     <h1>Our Class Timetable</h1>
 
-    <!-- Day Buttons -->
+    
     <div class="buttons">
       <button 
         v-for="day in days" 
@@ -13,7 +13,7 @@
       </button>
     </div>
 
-    <!-- Timetable -->
+    
     <div v-if="selectedDay">
       <h2>{{ selectedDay }}</h2>
 
@@ -30,7 +30,7 @@
       </table>
     </div>
 
-    <!-- Daily Activities -->
+    
     <div class="activities" v-if="selectedDay">
       <h2>{{ selectedDay }} Activities</h2>
       <ul>
